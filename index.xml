@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>::Wechselzone::</title>
+    <link>https://felker.org/</link>
+    <description>Recent content on ::Wechselzone::</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 30 Jun 2017 15:44:22 +0000</lastBuildDate>
+    
+	<atom:link href="https://felker.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows 10 auf einen Mac unter VirtualBox installieren</title>
+      <link>https://felker.org/2017/06/windows-10-in-virtualbox-installieren-auf-einen-mac/</link>
+      <pubDate>Fri, 30 Jun 2017 15:44:22 +0000</pubDate>
+      
+      <guid>https://felker.org/2017/06/windows-10-in-virtualbox-installieren-auf-einen-mac/</guid>
+      <description>Ich möchte hier eine kurze Anleitung geben, wie man ein frisches Windows 10 auf einem Mac unter VirtualBox installiert. Voraussetzungen dafür sind
+ Ein Mac 🙂 Ein installiertes VirtualBox&amp;nbsp; Ein Lizenzschlüssel für Windows 10 (zeitweise für unter 10 Euro bei Amazon zu kaufen)  Zunächst einmal benötigt man das&amp;nbsp;Windows 10 Creators Update&amp;nbsp;Version 1703 (aktuelle Version April 2017). Dieses liegt als ISO Image vor, in meinem Fall mit dem Namen Win10_1703_German_x64.iso. Das Image kann hier heruntergeladen werden, oben links auf dem Button als 64-Bit Download.</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Krefeld 2016</title>
+      <link>https://felker.org/2016/08/triathlon-krefeld-2016/</link>
+      <pubDate>Sun, 28 Aug 2016 14:00:00 +0000</pubDate>
+      
+      <guid>https://felker.org/2016/08/triathlon-krefeld-2016/</guid>
+      <description>Am Triathlon in Krefeld wollte ich schon immer mal teilnehmen, vor allem weil das Schwimmen im See stattfindet und das irgendwie mehr rockt als im Freibad zu starten. Und da zuvor das Training häufig auf der Regattabahn im&amp;nbsp;Fühlinger See stattgefunden hat, passte der Wettkampf auch recht gut.
+Der Wettkampftag war wettertechnisch einer der heißesten Tage in 2016. Bis zu 35 Grad sollten es werden und so war ich froh, dass es schon so früh losging.</description>
+    </item>
+    
+    <item>
+      <title>Unterbacher See Schwimmen 2016</title>
+      <link>https://felker.org/2016/08/unterbacher-see-schwimmen-2016/</link>
+      <pubDate>Sun, 21 Aug 2016 14:00:48 +0000</pubDate>
+      
+      <guid>https://felker.org/2016/08/unterbacher-see-schwimmen-2016/</guid>
+      <description>Natürlich mußte nach 2014 und 2015 auch wieder ein Start her beim Unterbacher See Schwimmen. Hierbei handelt es sich um ein Freiwasserschwimmwettkampf über eine Distanz von 3,3 km.
+Thomas Lurz (mehrfacher Weltmeister, Europameister, Deutscher Meister, siehe hier) war dieses Jahr als prominenter Teilnehmer mit dabei, was natürlich super cool war. Leider war zumindest ich nicht in der von Ihm angesprochenen Form 😉 .
+Hier die Urkunde und die Ergebnislisten.
+      </description>
+    </item>
+    
+    <item>
+      <title>Duathlon Mettmann 2016</title>
+      <link>https://felker.org/2016/04/duathlon-mettmann-2016/</link>
+      <pubDate>Sun, 17 Apr 2016 14:00:43 +0000</pubDate>
+      
+      <guid>https://felker.org/2016/04/duathlon-mettmann-2016/</guid>
+      <description>Nach langer Abstinenz war es in diesem Jahr mal wieder soweit: Ich hatte mich für den Duathlon in Mettmann angemeldet. Die Veranstaltung wurde auf das Sportgelände in Mettmann-Metzkausen verlegt, welches dafür super geeignet ist. Auch die dadurch nötige neue Laufstrecke finde ich persönlich besser als zuvor. Die Radstrecke verläuft größtenteils auf dem alten Kurs und der lieb gewonnene Hardbreak-Hill ist auch wieder mit dabei :-).
+Leider war es am Veranstaltungstag recht kalt und zuvor hatte es auch noch ordentlich geregnet.</description>
+    </item>
+    
+    <item>
+      <title>Honda CRF 1000 Africa Twin</title>
+      <link>https://felker.org/2016/03/honda-crf1000-africatwin/</link>
+      <pubDate>Tue, 01 Mar 2016 20:30:54 +0100</pubDate>
+      
+      <guid>https://felker.org/2016/03/honda-crf1000-africatwin/</guid>
+      <description>Gekauft im März 2016 ohne Probefahrt und mehr oder weniger spontan
+Hier alle technischen Daten der Africa Twin.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi – Kamera einrichten mit Live Stream</title>
+      <link>https://felker.org/2015/12/raspberry-pi-kamera-einrichten-mit-live-stream/</link>
+      <pubDate>Sat, 19 Dec 2015 19:01:56 +0000</pubDate>
+      
+      <guid>https://felker.org/2015/12/raspberry-pi-kamera-einrichten-mit-live-stream/</guid>
+      <description>Installation Das Kameramodul zum Raspberry Pi ist z.B. für rund 22 Euro bei EXP-Tech zu bekommen. Es gibt sie auch noch in einer Variante ohne Infrarot-Filter (Infrarotkamera), mit der dann sogar Nachtaufnahmen erstellt werden können.
+Die Installation geht leicht von der Hand: Das Flachbandkabel der Kamera mit der blauen Seite in Richtung Ethernetanschluss in die dafür vorgesehene CSI-Schnittstelle einstecken. Die Schnittstelle befindet sich zwischen dem HDMI- und dem Ethernetanschluss. Vor dem Einstecken des Kabels noch den Steckverbinder nach oben ziehen (auf dem Bild in Weiß, kann nicht entfernt werden!</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi – WLAN einrichten</title>
+      <link>https://felker.org/2015/12/raspberry-pi-wlan-einrichten/</link>
+      <pubDate>Sat, 19 Dec 2015 15:03:57 +0000</pubDate>
+      
+      <guid>https://felker.org/2015/12/raspberry-pi-wlan-einrichten/</guid>
+      <description>WLAN Stick und Treiber Um seinen Raspberry Pi über WLAN mit den Netzwerk zu verbinden, benötigt man zuerst einen USB WLAN Stick. Als günstig und problemlos mit dem Raspi zu verwenden hat sich der USB Stick von EDIMAX herausgestellt. Außerdem ist er mit 8 Euro auch recht günstig. Der Stick wird vom Raspi automatisch erkannt.
+Mit dem Befehl dmesg | grep -i RTL8192CUkann geprüft werden, ob der benötigte Treiber RTL8192C geladen wurde.</description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi – Erste Schritte</title>
+      <link>https://felker.org/2015/12/raspberry-pi-erste-schritte/</link>
+      <pubDate>Sun, 13 Dec 2015 12:10:26 +0000</pubDate>
+      
+      <guid>https://felker.org/2015/12/raspberry-pi-erste-schritte/</guid>
+      <description>Ziel Um ein wenig mit dem Raspberry Pi herumspielen zu können ist das Ziel dieses Beitrags, erst einmal den Raspi so weit zu konfigurieren, dass wir später über eine SSH-Verbindung auf ihn zugreifen können. Dazu installieren wir ein Betriebssystem, nehmen Konfigurationen vor, aktualisieren die Firmware und verbinden uns mit SSH auf den Raspi.
+In weiteren Beiträgen folgt dann die Ansteuerung der GPIO Schnittstelle, um im ersten Schritt ein paar Leuchtdioden zum Leuchten zu bringen und später dann auch Servos und Motoren anzusteuern.</description>
+    </item>
+    
+    <item>
+      <title>Unterbacher See Schwimmen 2015</title>
+      <link>https://felker.org/2015/08/unterbacher-see-schwimmen-2015/</link>
+      <pubDate>Sun, 23 Aug 2015 19:00:06 +0000</pubDate>
+      
+      <guid>https://felker.org/2015/08/unterbacher-see-schwimmen-2015/</guid>
+      <description>Nachdem das Unterbacher See Schwimmen 2014 so viel Spaß gemacht hat, habe ich mich in diesem Jahr natürlich erneut angemeldet.
+In diesem Jahr sollte die Strecke mit 3,5 km etwas länger als 2014. Leider musste diese aus Sicherheitsgründen etwas verkürzt werden, so dass es am Ende eine Strecke von 3,3 km waren, was dem Spaß aber in keinster Weise beeinträchtigte.
+Die 3,3 km habe ich in 51:10 Minuten absolviert, ein guter Wert für mich 🙂</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Ratingen 2014</title>
+      <link>https://felker.org/2014/09/familien-triathlon-ratingen-2014/</link>
+      <pubDate>Sun, 14 Sep 2014 19:00:50 +0000</pubDate>
+      
+      <guid>https://felker.org/2014/09/familien-triathlon-ratingen-2014/</guid>
+      <description>Dieses Jahr bin ich zum ersten Mal mit meiner Familie beim Triathlon in Ratingen in der Familien Staffel unter dem Namen Die NoNames gestartet. Bedeutet, das meine Tochter Hannah die 200m Schwimmen, ich dann die 10 km Radfahren und meine Frau Carola die 2,5 km Laufen in Angriff genommen hat.
+Meine Vermutung, dass die Familienstaffel von den meisten locker angegangen wird, bestätigte sich leider nicht. Es wurde gekämpft, als ob es um eine Olympia Medaille gehen würde.</description>
+    </item>
+    
+    <item>
+      <title>Unterbacher See Schwimmen 2014</title>
+      <link>https://felker.org/2014/08/unterbacher-see-schwimmen-2014/</link>
+      <pubDate>Sun, 24 Aug 2014 19:00:03 +0000</pubDate>
+      
+      <guid>https://felker.org/2014/08/unterbacher-see-schwimmen-2014/</guid>
+      <description>In diesem Jahr startet zum ersten man das Unterbacher See Schwimmen, ein Freiwasserschwimmwettkampf in Düsseldorf. Der Unterbacher See ist südöstlich von Düsseldorf gelegen und sehr gut mit dem Auto zu erreichen.
+Der Wettkampf bietet unterschiedliche Strecken an: Einmal die 2 km Strecke und noch die 3 km Strecke, auf der ich gestartet bin. Früh morgens ging es dann mit insgesamt 127 Schwimmern auf er 3 km Distanz an den Start. Nachdem man sich durch das&amp;nbsp;übliche Getümmel kurz nach dem Startschuss gedrängelt hat, geht es zum südlichen Ende des Sees und wieder zurück.</description>
+    </item>
+    
+    <item>
+      <title>Herzlauf Hilden 2013</title>
+      <link>https://felker.org/2013/12/herzlauf-hilden-2013/</link>
+      <pubDate>Sun, 01 Dec 2013 19:00:08 +0000</pubDate>
+      
+      <guid>https://felker.org/2013/12/herzlauf-hilden-2013/</guid>
+      <description>Der Herzlauf Hilden fand in diesem Jahr zum ersten Mal statt. Ich hatte mich für die Halbmarathonstrecke angemeldet, weil ich schon länger an keinen mehr teilgenommen hatte und ich mal sehen wollte, wie schnell ich auf dieser Distanz noch bin. Anfang Dezember ist natürlich nicht mehr das allerbeste Laufwetter&amp;#8230; Der Lauf ging durch den Hildener Stadtwald, welcher überraschend hügelig ist. Pro Runde sind rund 5 Kilometer zu bewältigen, was natürlich dann auch bedeutet, vier mal dieselbe Strecke zu laufen, was so gar nicht mein Ding ist.</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Ratingen 2013</title>
+      <link>https://felker.org/2013/09/triathlon-ratingen-2013/</link>
+      <pubDate>Sun, 08 Sep 2013 19:00:22 +0000</pubDate>
+      
+      <guid>https://felker.org/2013/09/triathlon-ratingen-2013/</guid>
+      <description>Nach einem Jahr Pause nun erneut der Triathlon in Ratingen. Diese Jahr mal ohne Regen, was den Spaßfaktor natürlich deutlich erhöht. Gut vorbereitet ging ich an den Start, um mal zu sehen, was in meiner neuen Altersklasse AK45 so zu erreichen ist.
+Das Ergebnis ist Platz 6 von 32 in AK45 und im Gesamtfeld Platz 31 von 127 🙂
+Hier geht es [zur Urkunde.
+]2 Bilder vom Rennen kann man sich hier ansehen, für Bilder von mir einfach nach der Startnummer 2228 suchen.</description>
+    </item>
+    
+    <item>
+      <title>24h MTB Duisburg 2013</title>
+      <link>https://felker.org/2013/08/24h-mtb-duisburg-2013/</link>
+      <pubDate>Sun, 04 Aug 2013 21:00:47 +0000</pubDate>
+      
+      <guid>https://felker.org/2013/08/24h-mtb-duisburg-2013/</guid>
+      <description>Mein letztes 24h MTB Rennen in Duisburg ist nun schon zwei Jahre her, aber noch in guter Erinnerung. Damals noch im 4&amp;#8217;er Team und bei Regen sind wir in diesem Jahr im 8&amp;#8217;er Team bei schönstem Wettergestartet. Schönstes und somit trockenes Wetter bedeutet in diesem Fall auch Staub. Sehr viel Staub, nein extrem viel Staub. Ein Fahren ohne Mundschutz war teilweise überhaupt nicht möglich. Und unser Zelt stand direkt an der Strecke, so dass auch abseits der Piste der Staub allgegenwärtig war.</description>
+    </item>
+    
+    <item>
+      <title>Mettmanner Bachlauf 2013</title>
+      <link>https://felker.org/2013/05/mettmanner-bachlauf-2013/</link>
+      <pubDate>Wed, 01 May 2013 19:20:44 +0000</pubDate>
+      
+      <guid>https://felker.org/2013/05/mettmanner-bachlauf-2013/</guid>
+      <description>Zwei Jahre ist es nun her, dass ich das am Mettmanner Bachlauf teilgenommen habe. Und da der alte Sportplatz einem Neubaugebiet weichen musste, fand der Lauf dieses Jahr das erste Mal an der neuen Sportanlage in Mettmann-Metzkausen statt. Genauer gesagt ist dieser Teil der Sportanlage nicht ganz neu, aber egal. Aufgrund der Baustellensituation konnte die Wegführung nicht optimal geplant werden, was bedeutet, dass es mehr als die angegebenen 10 km sein werden.</description>
+    </item>
+    
+    <item>
+      <title>Motorrad Links</title>
+      <link>https://felker.org/motorrad-links/</link>
+      <pubDate>Fri, 22 Feb 2013 10:17:59 +0000</pubDate>
+      
+      <guid>https://felker.org/motorrad-links/</guid>
+      <description>Motorrad    &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;http://www.berndtesch.de/&amp;quot; id=&amp;quot;link-30&amp;quot; class=&amp;quot;track_this_link &amp;quot; title=&amp;quot;Globetrott-Zentrale Bernd TESCH&amp;quot;&amp;gt;Globetrott-Zentrale Bernd TESCH&amp;lt;/a&amp;gt; &amp;lt;span class=&amp;quot;editlink&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://www.felker.org/wp-admin/link.php?action=edit&amp;amp;#038;link_id=30&amp;quot;&amp;gt;(Edit)&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;br /&amp;gt;Globetrott-Zentrale mit Kultstatus&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;http://www.horizonsunlimited.com&amp;quot; id=&amp;quot;link-32&amp;quot; class=&amp;quot;track_this_link &amp;quot; title=&amp;quot;Horizons unlimited&amp;quot;&amp;gt;Horizons unlimited&amp;lt;/a&amp;gt; &amp;lt;span class=&amp;quot;editlink&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://www.felker.org/wp-admin/link.php?action=edit&amp;amp;#038;link_id=32&amp;quot;&amp;gt;(Edit)&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;br /&amp;gt;Stuff for the Motorcycle Traveller&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;http://mopeten.tv/&amp;quot; id=&amp;quot;link-10&amp;quot; class=&amp;quot;track_this_link &amp;quot; title=&amp;quot;mopeten.tv&amp;quot;&amp;gt;mopeten.tv&amp;lt;/a&amp;gt; &amp;lt;span class=&amp;quot;editlink&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://www.felker.org/wp-admin/link.php?action=edit&amp;amp;#038;link_id=10&amp;quot;&amp;gt;(Edit)&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;br /&amp;gt;Fast so schön wie selber fahren&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;http://www.motorradreiseforum.de/&amp;quot; id=&amp;quot;link-31&amp;quot; class=&amp;quot;track_this_link &amp;quot; title=&amp;quot;Motorrad Reiseforum&amp;quot;&amp;gt;Motorrad Reiseforum&amp;lt;/a&amp;gt; &amp;lt;span class=&amp;quot;editlink&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://www.</description>
+    </item>
+    
+    <item>
+      <title>Radmarathon RV Adler 2012</title>
+      <link>https://felker.org/2012/09/radmarathon-rv-adler-2012/</link>
+      <pubDate>Sat, 15 Sep 2012 16:24:07 +0000</pubDate>
+      
+      <guid>https://felker.org/2012/09/radmarathon-rv-adler-2012/</guid>
+      <description>Am Samstag, den 15. September, war es mal wieder soweit. Kollege Thomas und ich sind zusammen zum Start des RV Adler Radmarathons in Remscheid gefahren. Um 7 Uhr angekommen, ging es zunächst einmal zur Anmeldung, die Startnummer wurde montiert und schon ging es in aller Früh auf das Rennrad. Bereits nach einem Kilometer hatten wir uns das erste Mal verfahren, man sollte auch nicht stumpf Anderen hinterherfahren. Mitten im Wald im Matsch standen wir, da wir uns auf der MTB Strecke befanden.</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Ratingen 2011</title>
+      <link>https://felker.org/2011/09/triathlon-ratingen/</link>
+      <pubDate>Mon, 12 Sep 2011 20:25:33 +0000</pubDate>
+      
+      <guid>https://felker.org/2011/09/triathlon-ratingen/</guid>
+      <description>Es war ein schöner Morgen am 11. September 2011, die Sonne schien und dies, obwohl der Wetterbericht am Vortag nichts Gutes zu vermelden hatte. Glück gehabt, dachte ich, da wird der angekündigte Regen wohl erst am späten Nachmittag kommen, wenn überhaupt. Also frohen Mutes erst einmal mit der Familie gefrühstückt und dann die Sachen für den Triathlon Ratingen im Angerbad gepackt.
+Meine Startunterlagen hatte ich bereits am Vortag im Schwimmbad abgeholt und es waren noch Anmeldungen möglich, so dass zu meiner Verwunderung (Thema Wetter) eine lange Schlange potentieller Mitstreiter versuchte, noch einen Startplatz zu bekommen.</description>
+    </item>
+    
+    <item>
+      <title>24h MTB Duisburg 2011</title>
+      <link>https://felker.org/2011/08/24h-mtb-duisburg/</link>
+      <pubDate>Mon, 08 Aug 2011 20:15:22 +0000</pubDate>
+      
+      <guid>https://felker.org/2011/08/24h-mtb-duisburg/</guid>
+      <description>Als mich vor fast einem Jahr Mirko fragte, ob ich am 24h MTB Rennen in Duisburg teilnehmen möchte, habe ich spontan zugesagt, obwohl ich absolut nicht wusste, auf was ich mich einlassen würde. &amp;#8222;Du musst dich schnell entscheiden, die Startplätze sind immer nach wenigen Minuten ausgebucht&amp;#8220;. Ist klar, 2.000 Teilnehmer, und alles nach wenigen Minuten ausgebucht, dachte ich noch. Aber er sollte recht behalten, am 2. Oktober 2010 waren dann tatsächlich nach kurzer Zeit alle Startplätze vergeben.</description>
+    </item>
+    
+    <item>
+      <title>Sportliche Links</title>
+      <link>https://felker.org/links/</link>
+      <pubDate>Thu, 14 Jul 2011 19:16:19 +0000</pubDate>
+      
+      <guid>https://felker.org/links/</guid>
+      <description>Lauflinks    &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;http://www.lauflauflauf.de/&amp;quot; id=&amp;quot;link-26&amp;quot; class=&amp;quot;track_this_link &amp;quot; title=&amp;quot;LaufLaufLauf&amp;quot;&amp;gt;LaufLaufLauf&amp;lt;/a&amp;gt; &amp;lt;span class=&amp;quot;editlink&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://www.felker.org/wp-admin/link.php?action=edit&amp;amp;#038;link_id=26&amp;quot;&amp;gt;(Edit)&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;br /&amp;gt;Laufkalender mit allen Terminen für die Laufplanung und Laufsuche mit Volkslauf-Suchmaschine&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;http://www.laufsuche.de/&amp;quot; id=&amp;quot;link-25&amp;quot; class=&amp;quot;track_this_link &amp;quot; title=&amp;quot;Laufsuche&amp;quot;&amp;gt;Laufsuche&amp;lt;/a&amp;gt; &amp;lt;span class=&amp;quot;editlink&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://www.felker.org/wp-admin/link.php?action=edit&amp;amp;#038;link_id=25&amp;quot;&amp;gt;(Edit)&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;br /&amp;gt;Suchmaschine speziell für Laufveranstaltungen: Marathon, Halbmarathon, Kurzstrecken, Walking / Nordic Walking&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;http://www.neandertallauf.com/&amp;quot; id=&amp;quot;link-28&amp;quot; class=&amp;quot;track_this_link &amp;quot; title=&amp;quot;Neandertallauf&amp;quot;&amp;gt;Neandertallauf&amp;lt;/a&amp;gt; &amp;lt;span class=&amp;quot;editlink&amp;quot;&amp;gt;&amp;lt;a href=&amp;quot;https://www.felker.org/wp-admin/link.php?action=edit&amp;amp;#038;link_id=28&amp;quot;&amp;gt;(Edit)&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;br /&amp;gt;Anspruchsvolle Strecke durch das landschaftlich reizvolle Tal unserer Vorfahren&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;li&amp;gt; &amp;lt;a href=&amp;quot;http://www.</description>
+    </item>
+    
+    <item>
+      <title>Radmarathon RV Adler 2011</title>
+      <link>https://felker.org/2011/07/radmarathon-rv-adler/</link>
+      <pubDate>Sun, 03 Jul 2011 12:49:49 +0000</pubDate>
+      
+      <guid>https://felker.org/2011/07/radmarathon-rv-adler/</guid>
+      <description>Nach 10-jähriger Abstinenz vom Radmarathon war es für mich gestern mal wieder so weit. Mit Kollege Thomas habe ich mich um 7:30 Uhr in Remscheid zum Start des RV Adler Radmarathons getroffen. Zuerst einmal das Startgeld von 12 Euro bezahlt, die Startnummer angebracht und dann konnte auch schon das Abenteuer beginnen.
+Für meinen letzten Radmarathon, den Winterberg-Sauerland-Radmarathon, hatte ich zuvor 2500 &amp;#8211; 3000 km trainiert, dieses mal zeigt mein Radcomputer 500 gefahrene Kilometer in 2011 an.</description>
+    </item>
+    
+    <item>
+      <title>Mettmanner Bachlauf 2011</title>
+      <link>https://felker.org/2011/05/mettmanner-bachlauf-2011/</link>
+      <pubDate>Sun, 01 May 2011 19:31:30 +0000</pubDate>
+      
+      <guid>https://felker.org/2011/05/mettmanner-bachlauf-2011/</guid>
+      <description>Jedes Jahr wird vom Mettmann-Sport der Mettmanner Bachlauf organisiert und dieses Jahr habe ich zum ersten Mal daran teilgenommen. Bei schönstem Wetter haben sich fast 1000 Teilnehmer eingefunden, um die verschiedenen Strecken in Angriff zu nehmen: Vom Bambinilauf über Schüler zu den Nordic Walkern und zu guter Letzt zu den Läufern, Strecken von 400m bis 10km waren dabei.
+Der 10km Lauf startet zum Schluss und so muss ich mich ein wenig gedulden, bis es endlich los geht.</description>
+    </item>
+    
+    <item>
+      <title>Duathlon Mettmann 2011</title>
+      <link>https://felker.org/2011/04/duathlon-mettmann/</link>
+      <pubDate>Sun, 17 Apr 2011 18:04:06 +0000</pubDate>
+      
+      <guid>https://felker.org/2011/04/duathlon-mettmann/</guid>
+      <description>Der Duathlon in Mettmann ist nun schon seit ein paar Jahren immer wieder eine meiner Auftaktveranstaltungen in die Saison. Dieses Jahr ist es die neunte Auflage und, wie ich hoffe, nicht die letzte. Leider muss die Sportanlage einem Neubaugebiet Platz machen und wenn man mal ehrlich ist, ist mit dem Sportplatz auch nicht mehr viel los. Die Frage ist nur, wird der Duathlon auch weiterhin stattfinden und wenn ja, wo? Schließlich müssen an dem neuen Austragungsort auch entsprechende Strecken vorhanden sein und das ist sicherlich nicht so einfach zu bewerkstelligen.</description>
+    </item>
+    
+    <item>
+      <title>Impressum</title>
+      <link>https://felker.org/impressum/</link>
+      <pubDate>Wed, 13 Apr 2011 20:07:09 +0000</pubDate>
+      
+      <guid>https://felker.org/impressum/</guid>
+      <description>Verantwortlich:
+Rolf Felker
+Gabriele-Münter-Straße 21
+40822 Mettmann
+Deutschland
+Urherberrecht und Haftung:
+ Inhalt des Onlineangebotes  Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder ideeller Art beziehen, die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens des Autors kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.</description>
+    </item>
+    
+    <item>
+      <title>Über mich</title>
+      <link>https://felker.org/uber-mich/</link>
+      <pubDate>Wed, 13 Apr 2011 07:23:23 +0000</pubDate>
+      
+      <guid>https://felker.org/uber-mich/</guid>
+      <description>Wir sehen uns auf G+ google.com/+RolfFelker oder Twitter https://twitter.com/rolffelker</description>
+    </item>
+    
+    <item>
+      <title>Neandertallauf 2011</title>
+      <link>https://felker.org/2011/03/neandertallauf-2011/</link>
+      <pubDate>Sun, 13 Mar 2011 19:00:30 +0000</pubDate>
+      
+      <guid>https://felker.org/2011/03/neandertallauf-2011/</guid>
+      <description>Am 13. März 2011 fand der diesjährige Neandertallauf statt. Bei schönem,kühlem und trockenem Wetter gingen in Erkrath-Hochdahl wieder mehr als 500 Teilnehmer auf die 14.065 Meter lange Strecke. Dieses Mal konnte ich auch ein paar Kollegen motivieren und so starteten wir um 11:45 Uhr zu viert auf die Strecke.
+Zunächst geht es leicht bergab Richtung Erkrath-Unterfeldhaus und dann auf die Erkrather Straße leicht hoch und direkt wieder runter Richtung Alt-Erkrath. Nachdem man dort die Fußgängerzone durchlaufen hat geht es von dort auf die Mettmanner Straße durch das Neandertal zum Neandertalmuseum.</description>
+    </item>
+    
+    <item>
+      <title>Radfahren</title>
+      <link>https://felker.org/radfahren/</link>
+      <pubDate>Sat, 19 Feb 2011 10:16:26 +0000</pubDate>
+      
+      <guid>https://felker.org/radfahren/</guid>
+      <description>Hier geht es um das Radfahren</description>
+    </item>
+    
+    <item>
+      <title>Kontakt</title>
+      <link>https://felker.org/kontakt/</link>
+      <pubDate>Thu, 17 Feb 2011 19:05:09 +0000</pubDate>
+      
+      <guid>https://felker.org/kontakt/</guid>
+      <description>  </description>
+    </item>
+    
+    <item>
+      <title>Motorrad</title>
+      <link>https://felker.org/motorrad/</link>
+      <pubDate>Thu, 17 Feb 2011 18:43:05 +0000</pubDate>
+      
+      <guid>https://felker.org/motorrad/</guid>
+      <description>Seit 1987 bin ich die verschiedensten Motorräder gefahren, angefangen hat alles mit einer Kawasaki KLR 600. Später ging es dann weiter mit einer Honda VFR 750 F, gefolgt von einer KTM 600 LC4, einer BMW R100GS und letztendlich seit 1994 wieder eine Honda VFR 750 F.
+Zu allen Motorrädern findest Du hier auf meiner Homepage die technischen Daten.
+[nggallery id=10]</description>
+    </item>
+    
+    <item>
+      <title>Die sportliche Seite</title>
+      <link>https://felker.org/noch-eine-seite/</link>
+      <pubDate>Thu, 17 Feb 2011 18:38:03 +0000</pubDate>
+      
+      <guid>https://felker.org/noch-eine-seite/</guid>
+      <description>Auf dieser Homepage geht es viel um das Thema Ausdauersport. Hier findest Du Infos über Triathlon, Radsport und natürlich auch dem Laufsport und viele nützliche Links zu Veranstaltungen, Internetshops und Foren im Internet.
+Zusätzlich findest Du hier verschiedene Radtouren für das Rennrad und Mountainbike rund um Mettmann und Umgebung.
+Viel Spaß!
+Just Do It  </description>
+    </item>
+    
+    <item>
+      <title>Crosstriathlon Wuppertal 2010</title>
+      <link>https://felker.org/2010/09/crosstriathlon-wuppertal-2010/</link>
+      <pubDate>Sun, 12 Sep 2010 20:19:00 +0000</pubDate>
+      
+      <guid>https://felker.org/2010/09/crosstriathlon-wuppertal-2010/</guid>
+      <description>Eigentlich wollte ich dieses Jahr an keiner Sportveranstaltung teilnehmen. Aber als sich dann Kollegen recht spontan am Wuppertaler Crosstriathlon anmeldeten, hat mich das Wettkampffieber wieder gepackt. Also habe ich mich ebenfalls am &amp;#8222;Bergischen Hämmerchen&amp;#8220; angemeldet. Das ist die Sprintdistanz des &amp;#8222;Bergischen Hammers&amp;#8220; mit den Distanzen 0,5-14,4-5.
+Die Wechselzone war direkt an der Müllverbrennungsanlage Wuppertal. Unterhalb, und das ist wörtlich zu nehmen, liegt das Freibad, in dem bei fast schon zu warmen Temperaturen geschwommen wird.</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Leverkusen 2009</title>
+      <link>https://felker.org/2009/08/triathlon-leverkusen-2009/</link>
+      <pubDate>Mon, 31 Aug 2009 15:58:09 +0000</pubDate>
+      
+      <guid>https://felker.org/2009/08/triathlon-leverkusen-2009/</guid>
+      <description>Ja, es musste wieder sein! Zum fünften Mal in Folge habe ich mich zum Triathlon in Leverkusen angemeldet. Wieder sollte es die Kurzdistanz werden und das Training hat mir wieder mal viel Freude bereitet. Ok, der Fuß verweigerte fünf Wochen vor dem Start jegliche Laufbetätigung, aber egal. Gestartet wurde wie sie mal war, hat aber dennoch ihre Reize. Besonders ein Anstieg, passend am Friedhof, hat es in sich. Gelaufen wird rund um die Auermühle und im Ziel gibt es ein leckeres alkoholfreies Hefeweizen, was will man mehr!</description>
+    </item>
+    
+    <item>
+      <title>San Francisco</title>
+      <link>https://felker.org/2009/06/san-francisco/</link>
+      <pubDate>Mon, 08 Jun 2009 18:47:15 +0000</pubDate>
+      
+      <guid>https://felker.org/2009/06/san-francisco/</guid>
+      <description>Vom 30. Mai bis 6. Juni 2009 war ich beruflich in San Francisco. Das war für mich zugleich auch die erste Reise über den großen Teich in die USA. Ich habe dort die JavaOne,&amp;nbsp; die wichtigste Fachkonferenz rund um das Thema Java, besucht. Natürlich war auch noch Zeit, diese faszinierende Stadt privat zu erkunden: [nggallery id=11]</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: Mettmann-Homberg-Flandersbach-Wülfrath-Mettmann, 27km 300Hm</title>
+      <link>https://felker.org/2009/05/rennradtour-mettmann-homberg-flandersbach-wulfrath-mettmann-27km-300hm/</link>
+      <pubDate>Fri, 01 May 2009 16:35:22 +0000</pubDate>
+      
+      <guid>https://felker.org/2009/05/rennradtour-mettmann-homberg-flandersbach-wulfrath-mettmann-27km-300hm/</guid>
+      <description>Diese kurze Tour startet in Mettmann und geht über Metzkausen nach Homberg, durch das schöne Flandersbach nach Wülfrath und zurück nach Mettmann. Die Tour ist 27km lang mit 300Hm.
+
+Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: Mettmann – Dönberg – Langenberg – Mettmann, 62km 720Hm</title>
+      <link>https://felker.org/2009/04/rennradtour-mettmann-donberg-langenberg-mettmann-62km-720hm/</link>
+      <pubDate>Fri, 17 Apr 2009 16:34:05 +0000</pubDate>
+      
+      <guid>https://felker.org/2009/04/rennradtour-mettmann-donberg-langenberg-mettmann-62km-720hm/</guid>
+      <description>Diese Tour startet wie immer in Mettmann und geht über Wülfrath, Dönberg, Langenberg, Velbert, Wülfrath und zurück nach Mettmann. Die Tour ist 62km lang mit 720Hm.
+
+Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: ME-Wülfrath-Neviges-Baldeneysee-Velbert-Heiligenhaus-Wülfrath-ME, 60km 685Hm</title>
+      <link>https://felker.org/2009/04/rennradtour-me-wulfrath-neviges-baldeneysee-velbert-heiligenhaus-wulfrath-me-60km-685hm/</link>
+      <pubDate>Thu, 02 Apr 2009 16:32:38 +0000</pubDate>
+      
+      <guid>https://felker.org/2009/04/rennradtour-me-wulfrath-neviges-baldeneysee-velbert-heiligenhaus-wulfrath-me-60km-685hm/</guid>
+      <description>Diese Tour startet wie immer in Mettmann und geht über Wülfrath, Neviges, Baldeneysee, Velbert, Heiligenhaus und Wülfrath zurück nach Mettmann. Die Tour ist 60km lang mit 685Hm.
+
+Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: Mettmann – Dönberg – Langengerg – Velbert – Flandersbach – Mettmann, 63km 725Hm</title>
+      <link>https://felker.org/2008/10/rennradtour-mettmann-donberg-langengerg-velbert-flandersbach-mettmann-63km-725hm/</link>
+      <pubDate>Sat, 11 Oct 2008 16:31:24 +0000</pubDate>
+      
+      <guid>https://felker.org/2008/10/rennradtour-mettmann-donberg-langengerg-velbert-flandersbach-mettmann-63km-725hm/</guid>
+      <description>Diese Tour führt uns beginnend in Mettmann über Wuppertal Dönberg nach Langenberg, von dort über Velbert durch Flandersbach zurück nach Mettmann. Die Tour ist 63km lang mit 725Hm.
+
+Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: Rund um Mettmann, 47km 666Hm</title>
+      <link>https://felker.org/2008/09/rennradtour-rund-um-mettmann-47km-666hm/</link>
+      <pubDate>Wed, 10 Sep 2008 16:28:58 +0000</pubDate>
+      
+      <guid>https://felker.org/2008/09/rennradtour-rund-um-mettmann-47km-666hm/</guid>
+      <description>Diese Tour führt uns rund um Mettmann und mann kann sie beliebig abkürzen, falls es mal wieder regnen sollte. Sie ist 47 Kilometer lang und hat 666 Höhenmeter.
+
+Größere Kartenansicht
+Das Höhenprofil der Radtour:[singlepic id=103 h=250]</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: Dortmund, 69km 690Hm</title>
+      <link>https://felker.org/2008/09/rennradtour-dortmund-69km-690hm/</link>
+      <pubDate>Wed, 03 Sep 2008 16:26:26 +0000</pubDate>
+      
+      <guid>https://felker.org/2008/09/rennradtour-dortmund-69km-690hm/</guid>
+      <description>Die vierte Rennradtour ist keine Rundtour, sondern sie führt über das Bergische Land nach Wetter und Herdecke vorbei an der Hohensyburg in das östliche Dortmund. Nach 69 Kilometern und 690 Höhenmetern ist man angekommen. Und wie geht&amp;#8217;s dann weiter? 🙂
+
+Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Leverkusen 2008</title>
+      <link>https://felker.org/2008/08/triathlon-leverkusen-2008/</link>
+      <pubDate>Fri, 29 Aug 2008 15:47:12 +0000</pubDate>
+      
+      <guid>https://felker.org/2008/08/triathlon-leverkusen-2008/</guid>
+      <description>Der Triathlon in Leverkusen 2008 hat wieder super viel Spaß gemacht! Bei schönstem Wetter war es wieder eine toll organisierte Veranstaltung und ist jedem nur zu empfehlen.
+Ergebnisliste und Urkunde [nggallery id=5]
+Hier die neue Radstrecke, es müssen vier Runden gefahren werden. Die Strecke ist für den normalen Straßenverkehr komplett gesperrt.
+ Größere Kartenansicht
+&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: Richtung Dönberg, 45km 580Hm</title>
+      <link>https://felker.org/2008/07/rennradtour-richtung-donberg-45km-580hm/</link>
+      <pubDate>Tue, 01 Jul 2008 16:24:25 +0000</pubDate>
+      
+      <guid>https://felker.org/2008/07/rennradtour-richtung-donberg-45km-580hm/</guid>
+      <description>Diese Rennradtour östlich von Mettmann führt uns in den Wuppertaler Raum nach Dönberg, zurück über Velbert-Neviges und Wülfrath nach Mettmann. Die Strecke ist 45 Kilometer lang und es gilt 580 Höhenmeter zu erklimmen.
+
+Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: Baldeneysee, 58km 630Hm</title>
+      <link>https://felker.org/2008/06/rennradtour-baldeneysee-58km-630hm/</link>
+      <pubDate>Sun, 01 Jun 2008 16:21:35 +0000</pubDate>
+      
+      <guid>https://felker.org/2008/06/rennradtour-baldeneysee-58km-630hm/</guid>
+      <description>Die zweite Rennradtour führt zum Haus Scheppen am Baldeneysee, an dem man eine herrliche Rast einlegen und die Ruhe am See genießen kann, jedenfalls wenn man Sonntags vor 9 Uhr
+angekommen ist&amp;#8230; 😉
+Die Tour ist 58 Kilometer lang und es gilt 630 Höhenmeter zu meistern.
+
+Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Rennradtour: Essen-Kettwig, 48km 700Hm</title>
+      <link>https://felker.org/2008/06/rennradtour-essen-kettwig-48km-700hm/</link>
+      <pubDate>Sun, 01 Jun 2008 16:16:07 +0000</pubDate>
+      
+      <guid>https://felker.org/2008/06/rennradtour-essen-kettwig-48km-700hm/</guid>
+      <description>Diese Rennradtour nördlich von Mettmann führt über Homberg nach Heiligenhaus, weiter nach Essen-Kettwig und Richtung Baldeneysee zurück nach Mettmann über Heiligenhaus und Wülfrath. Es gilt 48 Kilometer und 700 Höhenmeter zu bewältigen.
+ Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Leverkusen 2007</title>
+      <link>https://felker.org/2007/08/triathlon-leverkusen-2007/</link>
+      <pubDate>Fri, 31 Aug 2007 15:44:34 +0000</pubDate>
+      
+      <guid>https://felker.org/2007/08/triathlon-leverkusen-2007/</guid>
+      <description>Der Triathlon in Leverkusen 2007 musste leider ohne mich stattfinden, da ich an einem beidseitigen Fersensporn litt&amp;#8230; 🙁</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Leverkusen 2006</title>
+      <link>https://felker.org/2006/08/triathlon-leverkusen-2006/</link>
+      <pubDate>Thu, 31 Aug 2006 19:18:11 +0000</pubDate>
+      
+      <guid>https://felker.org/2006/08/triathlon-leverkusen-2006/</guid>
+      <description>Der Triathlon in Leverkusen 2006 an einem extrem verregnetem Tag. Hat aber trotzdem wieder super viel Spaß gemacht!
+Ergebnisliste und Urkunde [nggallery id=4]
+&amp;nbsp;
+Hier die Radstrecke, es müssen zwei Runden gefahren werden:
+ Größere Kartenansicht</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Leverkusen 2005</title>
+      <link>https://felker.org/2005/08/triathlon-leverkusen-2005/</link>
+      <pubDate>Wed, 31 Aug 2005 20:47:04 +0000</pubDate>
+      
+      <guid>https://felker.org/2005/08/triathlon-leverkusen-2005/</guid>
+      <description>Vorüberlegungen Bereits im Frühjahr war klar, dass ich nach langer Abstinenz unbedingt mal wieder an einem Triathlon teilnehmen wollte. Schließlich hatte ich aufgrund von Zeitmangel in den letzten 3 Jahren keinen einzigen Wettkampf absolviert. Ok, da waren verschiedene Starts bei Laufveranstaltungen oder auch zwei mal der Winterberg-Sauerland-Radmarathon in den Jahren 2000 und 2001 und ein Staffeltriathlon in Witten 2001, an dem wir den 1. Platz erzielen konnten. Aber sonst war neben dem regelmäßigen Schwimm- und Lauftraining wenig zu verbuchen.</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Euroman 1999</title>
+      <link>https://felker.org/1999/08/triathlon-euroman-1999/</link>
+      <pubDate>Tue, 31 Aug 1999 16:16:22 +0000</pubDate>
+      
+      <guid>https://felker.org/1999/08/triathlon-euroman-1999/</guid>
+      <description>Bei dem Euroman-Hückelhoven handelt es sich um eine leicht verkürzte Mitteldistanz mit ein paar Sonderheiten. Die Schwimmstrecke ist 2,5 km lang und besteht aus zwei Runden. Nach der ersten Runde muss man kurz aus dem Wasser und an Land eine Absperrung umlaufen, bevor man die zweite Runde angehen kann. Beim Laufen sind mehrere längere Treppen zu meistern, eine der Hauptattraktionen für die Zuschauer.
+[nggallery id=8]</description>
+    </item>
+    
+    <item>
+      <title>Triathlon Selm 1998</title>
+      <link>https://felker.org/1998/08/triathlon-selm-1998/</link>
+      <pubDate>Mon, 31 Aug 1998 16:07:16 +0000</pubDate>
+      
+      <guid>https://felker.org/1998/08/triathlon-selm-1998/</guid>
+      <description>Dies war meine erste Kurzdistanz und zugleich mein letzter Triathlon ohne Rennrad. Geschwommen wurde in einem kleinen See und in der Wechselzone wollte man mir während des Wettkampfs die Weiterfahrt mit dem Rad verbieten, da ich Hörner am Lenker montiert hatte. Mein Check-In in die Wechselzone war da noch keine Rede von. Egal, nach einer Diskussion durfte ich dann weiterfahren&amp;#8230; [nggallery id=7]</description>
+    </item>
+    
+    <item>
+      <title>Honda VFR 750 F, RC 36I, Bj. 92-93 (Modellcode N-P)</title>
+      <link>https://felker.org/1992/05/honda-vfr-750-f-rc-36i-bj-92-93-modellcode-n-p/</link>
+      <pubDate>Fri, 01 May 1992 19:42:14 +0000</pubDate>
+      
+      <guid>https://felker.org/1992/05/honda-vfr-750-f-rc-36i-bj-92-93-modellcode-n-p/</guid>
+      <description>[nggallery id=12]
+&amp;nbsp;
+Im Internet Honda VFR 750 F Teileliste
+Youngtimer-Test: Honda VFR 750 F Das Universaltalent Honda VFR 750 F
+Gebrauchtberatung Honda VFR 750 F Vau fürs Leben
+Technische Daten und MOTORRAD-Messungen{.broken_link}
+Modellpflege{.broken_link}
+Tests in MOTORRAD{.broken_link}
+MOTORRAD-Checkpoint{.broken_link}
+Technische Daten [nggallery id=13] &amp;nbsp;
+Motor Wassergekühlter Vierzylinder-Viertakt-90-Grad-V-Motor
+Kurbelwelle querliegend
+zwei obenliegende, zahnradgetriebene Nockenwellen (dohc) je Zylinderbank
+vier über Tassenstößel betätigte Ventile pro Zylinder
+Naßsumpfschmierung mit Ölkühler
+E-Starter
+Bohrung x Hub: 70 x 48,6 mm</description>
+    </item>
+    
+    <item>
+      <title>BMW R100GS</title>
+      <link>https://felker.org/1992/01/bmw-r100gs/</link>
+      <pubDate>Wed, 01 Jan 1992 20:07:20 +0000</pubDate>
+      
+      <guid>https://felker.org/1992/01/bmw-r100gs/</guid>
+      <description>[nggallery id=14]
+&amp;nbsp;
+Technische Daten Motor Luftgekühlter Zweizylinder-Viertakt-Boxermotor, Kurbelwelle längsliegend, eine untenliegende, kettengetriebene Nockenwelle, zwei über Stoßstangen und Kipphebel betätigte Ventile pro Zylinder, Naßsumpfschmierung, Bing-Gleichdruckvergaser mit Ø 32 mm, kontaktlose Transistorzündung, Sekundärluftsystem(SLS), E-Starter, Drehstromlichtmaschine 240 W, Batterie 12 V/25Ah, Verdichtung 8,2 : 1 Bohrung x Hub: 94 x 70.6 mm, Hubraum: 980 cm³ 44 KW (60PS) bei 6.500 Umdrehungen 76 Nm bei 3.750 Umdrehungen
+Kraftübertragung Primärantrieb über Zahnräder, mechanisch betätigte Einscheiben-Trockenkupplung, Fünfganggetriebe, Kardan, Primärübersetzung: 1.</description>
+    </item>
+    
+    <item>
+      <title>Im Gelände mit einer KTM 600 LC4</title>
+      <link>https://felker.org/1991/07/im-gelande-mit-einer-ktm-600-lc4/</link>
+      <pubDate>Mon, 01 Jul 1991 20:19:08 +0000</pubDate>
+      
+      <guid>https://felker.org/1991/07/im-gelande-mit-einer-ktm-600-lc4/</guid>
+      <description>Die Bilder entstanden auf einem Gelände in Dortmund-Lanstrop im Sommer 1991
+[nggallery id=18]</description>
+    </item>
+    
+    <item>
+      <title>KTM 600 LC4 GS</title>
+      <link>https://felker.org/1991/03/ktm-600-lc4-gs/</link>
+      <pubDate>Fri, 01 Mar 1991 20:01:42 +0000</pubDate>
+      
+      <guid>https://felker.org/1991/03/ktm-600-lc4-gs/</guid>
+      <description>[nggallery id=16]
+&amp;nbsp;
+Hier noch ein paar Bilder der LC4 in Aktion
+Technische Daten Motor Wassergekühlter Einzylinder-Viertaktmotor, 552,9 cm³, ohc, vier Ventile, 36 kW (49 PS) bei 7.000/min, 54 Nm bei 5500/min, Kolbengeschwindigkeit bei 8.000/min 20,8 m/s, Ventilspiel (kalt) Einlaß/Auslaß 0,1&amp;frasl;0,1 mm, keine Ausgleichswelle, kein Elektrostarter, automatische Dekompressionseinrichtung mit Kickstarter gekoppelt, Dellorto-Vergaser Ø 38 mm
+Service-Intervalle alle 5.000 km, Ölwechsel alle 2.500 km, Ölfilterwechsel alle 5.000 km, Füllmenge bei Filterwechsel 1,5 Liter</description>
+    </item>
+    
+    <item>
+      <title>Honda VFR 750 F, RC 24, Bj. 88-89 (Modellcode F-J)</title>
+      <link>https://felker.org/1989/01/honda-vfr-750-f-rc-24-bj-88-89-modellcode-f-j/</link>
+      <pubDate>Sat, 14 Jan 1989 19:49:59 +0000</pubDate>
+      
+      <guid>https://felker.org/1989/01/honda-vfr-750-f-rc-24-bj-88-89-modellcode-f-j/</guid>
+      <description>[nggallery id=17]
+&amp;nbsp;
+Im Internet Honda VFR 750 F Teileliste
+Youngtimer-Test: Honda VFR 750 F Youngtimer im Vergleich: Honda VFR 750 F
+Weitere Informationen finden sich auch noch auf meiner Seite zur RC36
+Technische Daten Motor Wassergekühlter Vierzylinder-Viertakt-90-Grad-V-Motor
+Kurbelwelle querliegend
+zwei obenliegende, zahnradgetriebene Nockenwellen (dohc)
+vier über Kipphebel betätigte Ventile pro Zylinder
+Naßsumpfschmierung , Ölkühler
+E-Starter
+Bohrung x Hub: 70 x 48,6 mm
+Hubraum: 748 cm³
+Verdichtungsverhältnis: 11,0:1
+Nennleistung 100 PS (74 kW) bei 10500/ min (offen 105 PS)</description>
+    </item>
+    
+    <item>
+      <title>Kawasaki KLR 600</title>
+      <link>https://felker.org/1986/04/kawasaki-klr-600/</link>
+      <pubDate>Tue, 01 Apr 1986 20:15:12 +0000</pubDate>
+      
+      <guid>https://felker.org/1986/04/kawasaki-klr-600/</guid>
+      <description>[nggallery id=15]
+&amp;nbsp;
+Technische Daten Wassergekühlter Einzylinder-Viertakt Motor, zwei obenliegende Nockenwellen, vier Ventile pro Zylinder
+Bohrung x Hub: 96.0 x 78.0 mm, Hubraum: 564 cm³
+Verdichtung: 9,5 : 1
+Leistung: 20kW (27PS) bei 6.000/min / Leistungsgesteigert: 30 kW (42PS)
+Drehmoment: 39,7 Nm bei 3.000/min
+Leergewicht: 145kg
+Federweg v/h: 230 mm / 220 mm
+VMax: 160km/h
+Verbrauch: ~ 6,5 l/100km</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://felker.org/wp-content/uploads/sucuri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://felker.org/wp-content/uploads/sucuri/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

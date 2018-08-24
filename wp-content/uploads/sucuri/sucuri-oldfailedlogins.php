@@ -1,0 +1,9 @@
+<?php exit(0); ?>
+{"user_login":"admin","user_password":"[hidden]","attempt_time":1517331580,"remote_addr":"137.74.169.241","user_agent":"Mozilla\/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident\/4.0; GTB6.6; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; InfoPath.2; AskTbX-SD\/5.9.1.14019)"}
+{"user_login":"admin","user_password":"[hidden]","attempt_time":1517347180,"remote_addr":"113.10.18.3","user_agent":"Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0"}
+{"user_login":"rolf","user_password":"[hidden]","attempt_time":1517347186,"remote_addr":"113.10.18.3","user_agent":"Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0"}
+{"user_login":"rolf@felker.org","user_password":"[hidden]","attempt_time":1517347193,"remote_addr":"113.10.18.3","user_agent":"Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0"}
+{"user_login":"admin","user_password":"[hidden]","attempt_time":1517415099,"remote_addr":"133.232.136.180","user_agent":"Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0"}
+{"user_login":"rolf","user_password":"[hidden]","attempt_time":1517415105,"remote_addr":"133.232.136.180","user_agent":"Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0"}
+{"user_login":"rolf@felker.org","user_password":"[hidden]","attempt_time":1517415110,"remote_addr":"133.232.136.180","user_agent":"Mozilla\/5.0 (Windows NT 10.0; WOW64; rv:56.0) Gecko\/20100101 Firefox\/56.0"}
+{"user_login":"admin","user_password":"[hidden]","attempt_time":1517688038,"remote_addr":"51.15.82.2","user_agent":"Mozilla\/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident\/4.0; GTB6; InfoPath.2; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; OfficeLiveConnector.1.4; OfficeLivePatch.1.3)"}

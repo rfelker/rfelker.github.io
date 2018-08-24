@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ::Wechselzone::</title>
+    <link>https://felker.org/categories/</link>
+    <description>Recent content in Categories on ::Wechselzone::</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    
+	<atom:link href="https://felker.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computer</title>
+      <link>https://felker.org/categories/computer/</link>
+      <pubDate>Fri, 30 Jun 2017 15:44:22 +0000</pubDate>
+      
+      <guid>https://felker.org/categories/computer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Duathlon</title>
+      <link>https://felker.org/categories/duathlon/</link>
+      <pubDate>Sun, 17 Apr 2016 14:00:43 +0000</pubDate>
+      
+      <guid>https://felker.org/categories/duathlon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Galerien</title>
+      <link>https://felker.org/categories/galerien/</link>
+      <pubDate>Mon, 08 Jun 2009 18:47:15 +0000</pubDate>
+      
+      <guid>https://felker.org/categories/galerien/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laufen</title>
+      <link>https://felker.org/categories/laufen/</link>
+      <pubDate>Sun, 01 Dec 2013 19:00:08 +0000</pubDate>
+      
+      <guid>https://felker.org/categories/laufen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motorrad</title>
+      <link>https://felker.org/categories/motorrad/</link>
+      <pubDate>Tue, 01 Mar 2016 20:30:54 +0100</pubDate>
+      
+      <guid>https://felker.org/categories/motorrad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radfahren</title>
+      <link>https://felker.org/categories/radfahren/</link>
+      <pubDate>Sun, 04 Aug 2013 21:00:47 +0000</pubDate>
+      
+      <guid>https://felker.org/categories/radfahren/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>https://felker.org/categories/raspberry-pi/</link>
+      <pubDate>Sat, 19 Dec 2015 19:01:56 +0000</pubDate>
+      
+      <guid>https://felker.org/categories/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Schwimmen</title>
+      <link>https://felker.org/categories/schwimmen/</link>
+      <pubDate>Sun, 21 Aug 2016 14:00:48 +0000</pubDate>
+      
+      <guid>https://felker.org/categories/schwimmen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Triathlon</title>
+      <link>https://felker.org/categories/triathlon/</link>
+      <pubDate>Sun, 28 Aug 2016 14:00:00 +0000</pubDate>
+      
+      <guid>https://felker.org/categories/triathlon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

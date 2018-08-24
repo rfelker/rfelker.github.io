@@ -1,0 +1,640 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="de-de">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.47.1 with theme Tranquilpeak 0.4.3-BETA">
+    <title>Raspberry Pi – Erste Schritte</title>
+    <meta name="author" content="Rolf Felker">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="https://felker.org/favicon.png">
+    
+
+    
+    <meta name="description" content="Ziel Um ein wenig mit dem Raspberry Pi herumspielen zu können ist das Ziel dieses Beitrags, erst einmal den Raspi so weit zu konfigurieren, dass wir später über eine SSH-Verbindung auf ihn zugreifen können. Dazu installieren wir ein Betriebssystem, nehmen Konfigurationen vor, aktualisieren die Firmware und verbinden uns mit SSH auf den Raspi.
+In weiteren Beiträgen folgt dann die Ansteuerung der GPIO Schnittstelle, um im ersten Schritt ein paar Leuchtdioden zum Leuchten zu bringen und später dann auch Servos und Motoren anzusteuern.">
+    <meta property="og:description" content="Ziel Um ein wenig mit dem Raspberry Pi herumspielen zu können ist das Ziel dieses Beitrags, erst einmal den Raspi so weit zu konfigurieren, dass wir später über eine SSH-Verbindung auf ihn zugreifen können. Dazu installieren wir ein Betriebssystem, nehmen Konfigurationen vor, aktualisieren die Firmware und verbinden uns mit SSH auf den Raspi.
+In weiteren Beiträgen folgt dann die Ansteuerung der GPIO Schnittstelle, um im ersten Schritt ein paar Leuchtdioden zum Leuchten zu bringen und später dann auch Servos und Motoren anzusteuern.">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Raspberry Pi – Erste Schritte">
+    <meta property="og:url" content="/2015/12/raspberry-pi-erste-schritte/">
+    <meta property="og:site_name" content="::Wechselzone::">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="::Wechselzone::">
+    <meta name="twitter:description" content="Ziel Um ein wenig mit dem Raspberry Pi herumspielen zu können ist das Ziel dieses Beitrags, erst einmal den Raspi so weit zu konfigurieren, dass wir später über eine SSH-Verbindung auf ihn zugreifen können. Dazu installieren wir ein Betriebssystem, nehmen Konfigurationen vor, aktualisieren die Firmware und verbinden uns mit SSH auf den Raspi.
+In weiteren Beiträgen folgt dann die Ansteuerung der GPIO Schnittstelle, um im ersten Schritt ein paar Leuchtdioden zum Leuchten zu bringen und später dann auch Servos und Motoren anzusteuern.">
+    
+      <meta name="twitter:creator" content="@RolfFelker">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/6cbca0e06826d556378c440d2a32d68b?s=640">
+    
+
+    
+      <meta property="og:image" content="https://felker.org/thumbs/raspi-thumbnail.png">
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://felker.org/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://felker.org/">::Wechselzone::</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://felker.org/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="//www.gravatar.com/avatar/6cbca0e06826d556378c440d2a32d68b?s=90" alt="Bild des Autors" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://felker.org/#about">
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/6cbca0e06826d556378c440d2a32d68b?s=110" alt="Bild des Autors" />
+        </a>
+        <h4 class="sidebar-profile-name">Rolf Felker</h4>
+        
+          <h5 class="sidebar-profile-bio">Sportler - Motorradfahrer - arbeitet bei codecentric</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://felker.org/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://felker.org/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Kategorien</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://felker.org/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">Tags</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://felker.org/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">Archiv</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://felker.org/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">Über</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/rfelker" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://www.codecentric.de" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-briefcase"></i>
+      
+      <span class="sidebar-button-desc">codecentric AG</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://felker.org/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-center">
+  
+    <h1 class="post-title" itemprop="headline">
+      Raspberry Pi – Erste Schritte
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2015-12-13T12:10:26Z">
+        
+  
+  
+  
+  
+    13 Dezember 2015
+  
+
+      </time>
+    
+    
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="https://felker.org/categories/raspberry-pi">Raspberry Pi</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              
+
+<h2 id="ziel">Ziel</h2>
+
+<p>Um ein wenig mit dem Raspberry Pi herumspielen zu können ist das Ziel dieses Beitrags, erst einmal den Raspi so weit zu konfigurieren, dass wir später über eine SSH-Verbindung auf ihn zugreifen können. Dazu installieren wir ein Betriebssystem, nehmen Konfigurationen vor, aktualisieren die Firmware und verbinden uns mit SSH auf den Raspi.</p>
+
+<p>In weiteren Beiträgen folgt dann die Ansteuerung der <a href="https://www.raspberrypi.org/documentation/usage/gpio/">GPIO Schnittstelle</a>, um im ersten Schritt ein paar Leuchtdioden zum Leuchten zu bringen und später dann auch Servos und Motoren anzusteuern. Auch die <a href="https://www.raspberrypi.org/help/camera-module-setup/">Kamera des Pi</a> soll in einem Beitrag zum Leben erweckt werden.</p>
+
+<h2 id="betriebssystem-installieren">Betriebssystem installieren</h2>
+
+<p>Am einfachsten geht die Installation des Betriebssystems mittels NOOPS Lite, die Installationsroutine <a href="https://www.raspberrypi.org/downloads/noobs/">kann hier heruntergeladen werden</a>. Den Inhalt der ZIP-Datei auf eine leere SD-Karte mit FAT-Dateisystem kopieren, in den Raspberry Pi einlegen und den Raspi starten, indem er über die Stromversorgung angeschlossen wird. Der vorherige Anschluss eines Monitors über die HDMI Schnittstelle macht noch Sinn, da man ansonsten nicht viel sieht :-). Und natürlich sollte eine Tastatur und eine Maus auch nicht fehlen, sonnst klappt es mit der Bedienung nicht ;-).</p>
+
+<p>Voraussetzung für die Installation über NOOPS Light ist, dass der Raspi eine Verbindung ins Internet hat, da NOOPS Light während der Installation Dateien herunterlädt. Dazu einfach eine Verbindung zum Router über ein Ethernetkabel herstellen. Bei mir kam dann eine Fehlermeldung, dass keine Netzverbindung besteht. Nach der Auswahl des Betriebssystems <a href="http://www.raspbian.org/">Raspbian</a> wurde aber die Internetverbindung erkannt.</p>
+
+<p>Es werden dann ca. 3,2 GB an Daten heruntergeladen. Die SD Karte sollte also mindestens eine Größe von 8 GB haben, um später auch noch Software installieren zu können.</p>
+
+<h2 id="raspbian-starten">Raspbian starten</h2>
+
+<p>Nachdem die Installation durchgeführt wurde startet der Raspi neu, direkt in den grafischen Desktop von Raspbian. Über <em>Menu/Preferences/Raspberry Pi Configuration</em> kann man nun z.B. die Sprache, die Zeitzone  oder das Tastaturlayout einstellen. Da ich den grafischen Desktop nicht verwenden möchte, stelle ich hier nun nur unter <em>System</em> die Einstellung <em>Boot</em> auf <em>To CLI </em>(Command Line Interface = Kommandozeile oder auch Konsole) und mache die anderen Konfigurationen später über die Konsole. Nach Auswahl von _OK _kommt die Nachfrage, ob nun neu gebootet werden darf. Hier also <em>YES</em> auswählen.</p>
+
+<h2 id="konfiguration-über-die-konsole">Konfiguration über die Konsole</h2>
+
+<h3 id="zeitzone-und-tastaturlayout">Zeitzone und Tastaturlayout</h3>
+
+<p>Dach dem der Raspi nun neu gebootet wurde, gelangen wir direkt in die Konsole:</p>
+
+<pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-linenumbers="false">pi@raspberrypi:~ $ _</pre>
+
+<p>Die Konfiguration über die Kommandozeile kann nun über <code class="EnlighterJSRAW" data-enlighter-language="null">sudo raspi-config</code> gestartet werden (den Bindestrich erreicht man über das ß). Als erstes ändern wir über den Punkt 5 <em>Internationalisation Options</em> die Zeitzone (in meinem Fall <em>Europe/Berlin</em>) und vor allem das Layout der Tastatur, falls man mal eine angeschlossen hat. Meine <em>Cherry DW 5000</em> funktioniert gut mit der Einstellung _Generic 105-key (Intl) PC_ und dem Keyboard layout über <em>other/German/German</em>. Bei den restlichen Abfragen habe ich die Default-Werte übernommen. Die Sprache habe ich bewusst auf Englisch gelassen, da ih keine Lust auf irgend welche mißverständlichen Übersetzungen habe&#8230;</p>
+
+<h3 id="ssh">SSH</h3>
+
+<p>Am besten erreicht man später den Raspi über eine SSH Verbindung von einem anderen Computer aus. So spart man sich die Tastatur, Maus und den Monitor für den Raspi. Das ist natürlich keine Lösung für alle, die den grafischen Desktop von Raspbian verwenden wollen.</p>
+
+<p>Normalerweise ist der SSH Server bereits eingeschaltet. Dies kann man in der Konfiguration unter <em>Advanced Options/SSH</em> kontrollieren, hier sollte <em>Enable</em> vorbelegt sein.</p>
+
+<h3 id="hostname">Hostname</h3>
+
+<p><em>Unter Advanced Options/Hostname</em> kann der Name des Raspi geändert werden, der Standardname lautet <em>raspberrypi</em>. Ich habe hier einen neuen Namen vergeben, da ich meine zwei Raspis gerne unterscheiden möchte.</p>
+
+<p>Die Frage nach dem Reboot dann mit <em>YES</em> bestätigen.</p>
+
+<h2 id="update-der-firmware">Update der Firmware</h2>
+
+<p>Um alles auf dem aktuellsten Stand zu haben, kann man auch noch direkt ein Firmware Update durchführen.</p>
+
+<p>Die Firmware kann am einfachsten <a href="https://github.com/Hexxeh/rpi-update">mit diesem Script</a> von <a href="https://github.com/Hexxeh">Liam McLoughlin</a> aktualisiert werden. Dazu laden wir es erst einmal von GitHub herunter und legen es im Dateisystem unter /usr/bin ab. Dies geschieht über den Befehl</p>
+
+<pre class="EnlighterJSRAW" data-enlighter-language="shell" data-enlighter-linenumbers="false">sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update</pre>
+
+<p>Nun  das Script noch über <code class="EnlighterJSRAW" data-enlighter-language="shell">sudo chmod +x /usr/bin/rpi-update</code>ausführbar machen und das Update mittels <code class="EnlighterJSRAW" data-enlighter-language="shell">sudo rpi-update</code>starten. Vorher kann man noch, wenn man möchte, die Version über <code class="EnlighterJSRAW" data-enlighter-language="shell">uname -r</code>abfragen.  Bei mir lautet die Version aktuell <em>4.1.13-v7+</em>. Der nötige Reboot kann dann über den Befehl <code class="EnlighterJSRAW" data-enlighter-language="shell">reboot</code>ausgeführt werden. Eine anschließende Versionsabfrage ergab bei mir <em>4.1.14-v7+</em>.</p>
+
+<h2 id="verbindung-über-ssh">Verbindung über SSH</h2>
+
+<p>Um eine Verbindung über SSH herstellen zu können, benötigen wir die IP-Adresse des Raspi. Über den Befehl <code class="EnlighterJSRAW" data-enlighter-language="shell">ifconfig</code>erhalten wir Informationen über das Netzwerk-Interface:
+<pre><code>
+  eth0    Link encap:Ethernet  HWaddr b8:27:ee:63:ce:8a
+          inet addr:192.168.178.41  Bcast:192.168.178.255  Mask:255.255.255.0
+          inet6 addr: fe80::851a:fd6d:f047:d79a/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:506 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:146 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:82012 (80.0 KiB)  TX bytes:18203 (17.7 KiB)</pre>
+</code></pre></p>
+
+<p>Hinter _inet addr:_ in Zeile 2 steht die gesuchte IP-Adresse, welche wir notieren.</p>
+
+<h2 id="statische-ip-adresse">Statische IP-Adresse</h2>
+
+<p>Da der Rapsi normalerweise vom Router über DHCP immer eine neue Adresse zugewiesen bekommt, ist es besser, in den Einstellungen des Routers eine statische IP-Adresse für den Raspi zu vergeben, da man ansonsten immer wieder die IP ermitteln muss. Wie das z.B. bei einer FritzBox geht, <a href="http://avm.de/service/fritzbox/fritzbox-7390/wissensdatenbank/publication/show/201_Netzwerkgeraet-immer-die-gleiche-IP-Adresse-von-FRITZ-Box-zuweisen-lassen/">wird hier beschrieben</a>.</p>
+
+<p>Nun können wir die Tastatur, die Maus und den Monitor vom Raspi entfernen.</p>
+
+<p>Von einem anderen Computer im selben Netzwerk und dessen Konsole aus verbinden wir uns nun über SSH auf den Raspi über den Befehl <code>ssh pi@192.168.178.41</code>. Das Standard-Passwort lautet <em>raspberry</em>, welches man am besten direkt über den Befehl <code>passwd pi</code> ändert. Anschließend erscheint die Konsole des Raspi und wir haben es geschafft!</p>
+
+<h3 id="ssh-konfigurieren">SSH konfigurieren</h3>
+
+<p>Die Verbindung kann noch einfacher erfolgen, indem man SSH entsprechend konfiguriert. Ich erkläre das nun im Folgenden anhand der Konfiguration auf einem Mac.</p>
+
+<p>In der Konsole wechseln wir in das Verzeichnis <em>.ssh</em>, welches im Homeverzeichnis des angemeldeten Users liegt: <code>cd ~/.ssh</code>. Hier öffnen wir mit <code>open config</code> die Konfigurationsdatei, welche anschließend im Standard-Editor angezeigt wird.</p>
+
+<p>Existiert das Verzeichnis nicht, so kann es mit <code>mkdir .ssh &amp;&amp; chmod 700 .ssh</code> angelegt und mit den nötigen Berechtigungen versehen werden. Existiert die Datei nicht, kann sie über den Befehl <code>touch config</code> angelegt werden.</p>
+
+<p>Die Datei kann nun z.B. über einen Eintrag wie
+<pre>
+<code>
+  Host raspberrypi
+  HostName 192.168.178.41
+  User pi<br />
+</code>
+</pre>
+erweitert werden. Wobei natürlich die IP-Adresse auf die des eigenen Raspi angepasst werden muss sowie auch der Hostname, falls man diesen geändert hat. Nach dem Speichern kann man den Raspi nun sehr einfach über den Befehl <code class="EnlighterJSRAW" data-enlighter-language="shell">ssh raspberrypi</code>erreichen.</p>
+
+<h2 id="raspberry-pi-ausschalten">Raspberry Pi ausschalten</h2>
+
+<p>Will man den Raspberry Pi ausschalten, so sollte man das Betriebssystem vorher über den Befehl <code>sudo shutdown</code> herunterfahren, warten bis es tatsächlich unten ist  und erst dann die Stromversorgung entfernen.</p>
+
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">GETAGGT IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://felker.org/tags/raspberry-pi/">Raspberry Pi</a>
+
+                  </div>
+                
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://felker.org/2015/12/raspberry-pi-wlan-einrichten/" data-tooltip="Raspberry Pi – WLAN einrichten">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NÄCHSTE</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://felker.org/2015/08/unterbacher-see-schwimmen-2015/" data-tooltip="Unterbacher See Schwimmen 2015">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">VORHERIGE</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://felker.org/2015/12/raspberry-pi-erste-schritte/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2018 Rolf Felker. Alle Rechte vorbehalten
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://felker.org/2015/12/raspberry-pi-wlan-einrichten/" data-tooltip="Raspberry Pi – WLAN einrichten">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">NÄCHSTE</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://felker.org/2015/08/unterbacher-see-schwimmen-2015/" data-tooltip="Unterbacher See Schwimmen 2015">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">VORHERIGE</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+          <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=https://felker.org/2015/12/raspberry-pi-erste-schritte/">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+      <li class="share-option">
+        <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=https%3A%2F%2Ffelker.org%2F2015%2F12%2Fraspberry-pi-erste-schritte%2F">
+          <i class="fa fa-twitter"></i><span>Auf Twitter teilen</span>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/6cbca0e06826d556378c440d2a32d68b?s=110" alt="Bild des Autors" />
+    
+    <h4 id="about-card-name">Rolf Felker</h4>
+    
+      <div id="about-card-bio">Sportler - Motorradfahrer - arbeitet bei codecentric</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        codecentric Solingen
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Mettmann
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Suche" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">kein Beitrag gefunden</div>
+      <div class="results">
+        
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="kein Beitrag gefunden"
+         data-message-one="1 Beitrag gefunden"
+         data-message-other="{n} Einträge gefunden">
+         0 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://felker.org/images/cover.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://felker.org/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/felker.org\/2015\/12\/raspberry-pi-erste-schritte\/';
+          
+            this.page.identifier = '\/2015\/12\/raspberry-pi-erste-schritte\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+    
+  </body>
+</html>
+
